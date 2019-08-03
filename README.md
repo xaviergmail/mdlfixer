@@ -4,8 +4,10 @@ Fixes hardcoded model paths in .mdl files for models that were innocently moved 
 
 Usage
 ====
-`python3 mdlfixer.py [-h] [-f] [-e] [-b] [dir]`
+`python3 mdlfixer.py --help`
 
+```
+python3 mdlfixer.py [-h] [-f] [-e] [-b] [dir]
 
 positional arguments:
   dir           Directory to process mdl files in. Must be the game or addon's
@@ -19,3 +21,4 @@ optional arguments:
   -b, --backup  Copy original files to <filename.mdl>.bak before attempting to
                 apply an in-place fix (Requires --fix)
 
+```
